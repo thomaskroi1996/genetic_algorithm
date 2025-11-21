@@ -1,4 +1,5 @@
 #include "Utils.hpp"
+#include "Constants.hpp"
 
 int generateRandomNumber(const int &min, const int &max)
 {
@@ -7,4 +8,10 @@ int generateRandomNumber(const int &min, const int &max)
     std::uniform_int_distribution<> distrib(min, max);
 
     return distrib(gen);
+}
+
+char getRandomChar()
+{
+    char c = Const::GENES[generateRandomNumber(0, Const::GENES.size())];
+    return c;
 }

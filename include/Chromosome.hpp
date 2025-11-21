@@ -7,19 +7,21 @@
 class Chromosome
 {
 private:
-    std::vector<int> sequence_;
+    std::string sequence_;
 
 public:
     double fitness_;
 
-    Chromosome(const std::vector<int> &sequence, double fitness) : sequence_(sequence), fitness_(fitness) {};
+    Chromosome(const std::string &sequence, double fitness) : sequence_(sequence), fitness_(fitness) {};
 
     Chromosome(int length);
 
     // fitness goes from 0 to sequence_.size()
-    double evaluateFitness(const std::vector<int> &target);
+    double evaluateFitness(const std::string &target);
 
-    void mutate();
+    // void mutate();
+
+    void mutate(int min, int max, double mutation_rate);
 
     void print();
 

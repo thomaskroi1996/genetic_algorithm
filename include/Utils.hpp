@@ -5,4 +5,6 @@
 
 int generateRandomNumber(const int &min, const int &max);
 
+char getRandomChar();
+
 #endif

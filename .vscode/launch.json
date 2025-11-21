@@ -2,6 +2,19 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug GA",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/main",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
@@ -9,7 +22,7 @@
       "stopAtEntry": false,
       "externalConsole": false,
       "cwd": "/home/thk/coding/genetic_algorithm",
-      "program": "/home/thk/coding/genetic_algorithm/build/Debug/outDebug",
+      "program": "/home/thk/coding/genetic_algorithm/main",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
