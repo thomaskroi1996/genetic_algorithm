@@ -1,0 +1,1 @@
+Implementation of the Genetic Algorithm in C++. It works now finding a String made up of characters from the german keyboard. 
