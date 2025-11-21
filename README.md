@@ -11,6 +11,7 @@ Using g++ to compile, with specifying header files (include) and source files (s
 
 Further improvements / ideas:
 - Better memory managment for handling really long strings
+- Elite survival
 - Finding pictures by using R,G,B values
 - User input (easy)
 - Find solutions to mathematical equations
