@@ -6,7 +6,7 @@ Implementation of the Genetic Algorithm in C++. It works now for finding a strin
 
 Using g++ to compile, with specifying header files (include) and source files (src/)
 <pre>
- g++ -I include -o main src/* 
+ g++ -I include -o ga src/* 
 </pre>
 
 Further improvements / ideas:
