@@ -22,7 +22,7 @@ int main()
     // select chromosomes with best fitness
     std::vector<Chromosome> parents = pop.selectParents();
 
-    std::cout << parents.size();
+    std::cout << "parents size: " << parents.size() << ", ";
 
     // crossover
     pop.newGeneration(parents);

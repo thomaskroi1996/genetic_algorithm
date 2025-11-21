@@ -1,6 +1,7 @@
 Implementation of the Genetic Algorithm in C++. It works now for finding a string made up of characters from the german keyboard. 
 
-![Screenshot of final iterations.](image.png)
+
+![Screenshot of last iterations.](image-1.png)
 
 
 Using g++ to compile, with specifying header files (include) and source files (src/)
